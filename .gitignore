@@ -1,0 +1,8 @@
+.bazelrc.user
+dist
+bazel-out
+node_modules
+bazel-
+bazel-bin
+bazel-testlogs
+bazel-rules_nodejs_playground

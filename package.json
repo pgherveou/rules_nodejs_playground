@@ -1,0 +1,20 @@
+{
+  "name": "rules_nodejs_playground",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@bazel/bazelisk": "latest",
+    "@bazel/buildifier": "latest",
+    "@bazel/ibazel": "latest",
+    "@bazel/typescript": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "electron": "^18.0.1",
+    "untildify": "4.0.0"
+  },
+  "scripts": {
+    "build": "bazel build //...",
+    "test": "bazel test //..."
+  }
+}

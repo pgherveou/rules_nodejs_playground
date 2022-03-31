@@ -1,0 +1,11 @@
+load("@npm//@bazel/typescript:index.bzl", "ts_project")
+
+ts_project(
+    name = "lib",
+    srcs = ["foo.ts"],
+    declaration = True,
+    extends = "//:tsconfig.json",
+    deps = [
+        "@npm//electron",
+    ],
+)
