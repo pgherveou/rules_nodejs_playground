@@ -19,7 +19,7 @@ node_repositories(
 
 npm_install(
     name = "npm",
-    exports_directories_only = False,
+    # exports_directories_only =  False,
     package_json = "//:package.json",
     package_lock_json = "//:package-lock.json",
     strict_visibility = False,

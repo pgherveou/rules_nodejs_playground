@@ -3,14 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "@bazel/bazelisk": "latest",
-    "@bazel/buildifier": "latest",
-    "@bazel/ibazel": "latest",
-    "@bazel/typescript": "latest",
-    "typescript": "latest"
+    "@bazel/bazelisk": "1.11.0",
+    "@bazel/buildifier": "5.0.1",
+    "@bazel/typescript": "5.4.0",
+    "typescript": "4.6.3"
   },
   "dependencies": {
-    "electron": "^18.0.1",
+    "electron": "18.0.3",
     "untildify": "4.0.0"
   },
   "scripts": {
